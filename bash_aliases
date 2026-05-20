@@ -1,6 +1,7 @@
 #Symfony
 alias sfs="symfony serve -d"
 alias sfdbc="symfony console doctrine:database:create"
+alias sfmakem="symfony console make:migration"
 alias sfm="symfony console doctrine:migrations:migrate"
 alias sff="symfony console doctrine:fixtures:load --no-interaction"
 alias sfdbdrop="symfony console doctrine:database:drop --force"
