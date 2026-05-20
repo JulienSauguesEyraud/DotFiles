@@ -3,7 +3,7 @@ alias sfs="symfony serve -d"
 alias sfdbc="symfony console doctrine:database:create"
 alias sfm="symfony console doctrine:migrations:migrate"
 alias sff="symfony console doctrine:fixtures:load --no-interaction"
-alias sfdbd="symfony console doctrine:database:drop --force"
+alias sfdbdrop="symfony console doctrine:database:drop --force"
 alias sffix="./vendor/bin/php-cs-fixer fix"
 
 #Symfony tests
