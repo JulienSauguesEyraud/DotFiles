@@ -7,6 +7,7 @@ alias sfdbd="symfony console doctrine:database:drop --force"
 alias sffix="./vendor/bin/php-cs-fixer fix"
 
 #Symfony tests
+alias sft="vendor/bin/phpunit"
 alias sftdbc="symfony console doctrine:database:create --env=test"
 alias sfts="symfony console doctrine:schema:create --env=test"
 alias sftm="symfony console doctrine:migrations:migrate --env=test"
